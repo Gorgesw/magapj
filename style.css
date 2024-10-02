@@ -38,8 +38,6 @@ label {
     
 }
 
-
-
 button {
     margin-top: 20px;
     font-size: 20px;
@@ -48,11 +46,21 @@ button {
     margin-left: 10%;
     border: none;
     margin-left: -1%; 
-;
-    
+    margin-bottom: 30px;
+  
 }
 
 h1 {
 
     text-align: center;
+}
+
+li {
+list-style-type:  none;
+}
+
+a {
+
+    color: black;
+    font-size: 15;
 }
