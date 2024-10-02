@@ -10,10 +10,10 @@
 
 <div id="page">
     <div class="listagem">
-        <h1>Usuários Cadastrados</h1>
+        <h1>USUARIOS:</h1>
 
         <?php
-        $conexao = mysqli_connect("localhost","root","","teste");
+        $conexao = mysqli_connect("localhost","root","","cadastro");
 
         if (!$conexao) {
             echo "ERRO NA CONEXÃO";
@@ -32,7 +32,8 @@
                 echo "ID: " . htmlspecialchars($linha['id']) . " - ";
                 echo "Nome: " . htmlspecialchars($linha['nome']) . " - ";
                 echo "CPF: " . htmlspecialchars($linha['cpf']) . " - ";
-                echo "Contato: " . htmlspecialchars($linha['contato']);
+                echo "contatos: " . htmlspecialchars($linha['contato']) . " - ";
+
                 echo " | <a href='editar.php?id=" . htmlspecialchars($linha['id']) . "'>Editar</a> | ";
                 echo "<a href='excluir.php?id=" . htmlspecialchars($linha['id']) . "'>Excluir</a>";
                 echo "</li>";
@@ -45,8 +46,9 @@
         mysqli_close($conexao);
         ?>
 
+<li><a href="Usuarios">GERENCIAR USUARIOS</a></li> 
     </div>
 </div>
-
+ 
 </body>
 </html>
