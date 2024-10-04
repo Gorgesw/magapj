@@ -29,7 +29,7 @@
 
 
         ?>
-    <li><a href="Usuarios">GERENCIAR USUARIOS</a></li>
+    <li><a href="index.html">GERENCIAR USUARIOS</a></li>
     </div>
 </body>
 

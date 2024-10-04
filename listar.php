@@ -46,7 +46,7 @@
         mysqli_close($conexao);
         ?>
 
-<li><a href="Usuarios">GERENCIAR USUARIOS</a></li> 
+<li><a href="usuarios.html">GERENCIAR USUARIOS</a></li> 
     </div>
 </div>
  
